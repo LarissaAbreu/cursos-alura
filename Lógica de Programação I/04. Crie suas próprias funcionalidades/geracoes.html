@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+
+<script>
+  function pulaLinha() {
+    document.write('<br>');
+  };
+
+  function mostra(mensagem) {
+    document.write(mensagem);
+    pulaLinha()
+  };
+
+  const anoInicial = 1500;
+  const anoAtual = 2022;
+
+  const anosDiferenca = anoAtual - anoInicial;
+  const idadeMediaQuandoTemFilhos = 28;
+
+  const media = Math.round(anosDiferenca/idadeMediaQuandoTemFilhos);
+
+  mostra('De ' + anoInicial + ' até os dias de hoje se passaram ' + media + ' gerações.');
+</script>
