@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<script src="../funcoes_principais.js"></script>
+
+<script>
+  function calculaImc(peso, altura) {
+    return peso / (altura * altura);
+  };
+
+  // const pesoFlavio = 73;
+  // const alturaFlavio = 1.71;
+  // const imcFlavio = calculaImc(pesoFlavio, alturaFlavio);
+
+  // const pesoAmigo = 68;
+  // const alturaAmigo = 1.72;
+  // const imcAmigo = calculaImc(pesoAmigo, alturaAmigo);
+
+  // const totalImc = imcFlavio + imcAmigo;
+
+  // mostra('A soma dos imcs é : ' + totalImc);
+
+  const nome = prompt('Qual é o seu nome?');
+  const alturaInformada = prompt(nome + ', qual a sua altura?');
+  const pesoInformado = prompt(nome + ', qual o seu peso?');
+
+  const imc = calculaImc(pesoInformado, alturaInformada);
+
+  mostra(nome + ', o seu IMC é: ' + imc);
+</script>
