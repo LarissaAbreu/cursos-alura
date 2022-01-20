@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<script src="../funcoes_principais.js"></script>
+
+<script>
+
+  let totalFamiliares = parseInt(prompt('Quantos familiares farão parte do cálculo da média das idades?'));
+
+  let numero = 1;
+  let totalIdades = 0;
+
+  while (numero <= totalFamiliares) {
+    var idade = parseInt(prompt('Qual a idade dessa pessoa?'));
+    totalIdades = totalIdades + idade;
+    numero++;
+  }
+
+  let mediaIdades = totalIdades/totalFamiliares;
+
+  mostra('A média das idades dos familiares é ' + mediaIdades);
+
+</script>

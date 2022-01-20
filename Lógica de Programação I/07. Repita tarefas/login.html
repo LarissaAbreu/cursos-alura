@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<script src="../funcoes_principais.js"></script>
+
+<script>
+
+  var loginCadastrado = "alura";
+  var senhaCadastrada = "alura321";
+
+  let loginInformado;
+  let senhaInformada;
+
+  function pedeDados() {
+    loginInformado = prompt("Informe seu login");
+    senhaInformada = prompt("Informe sua senha");
+  }
+
+  let tentativas = 1;
+
+  while (tentativas <= 3) {
+    pedeDados();
+    if (loginInformado === loginCadastrado && senhaInformada === senhaCadastrada) {
+      alert('Login realizado com sucesso!');
+      break;
+    } else {
+      alert('Dados incorretos, essa foi a sua tentativa de número ' + tentativas);
+      tentativas = tentativas + 1;
+    }
+  }
+</script>
