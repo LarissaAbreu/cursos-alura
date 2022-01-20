@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<script src="../funcoes_principais.js"></script>
+
+<script>
+  function sorteia(n) {
+    return Math.round(Math.random() * n);
+  }
+
+  const numeroMaximo = parseInt(prompt('Qual número você quer que seja o limite máximo?'));
+
+  const numeroPensado = sorteia(numeroMaximo)
+
+  const chute = parseInt(prompt('Digite um número entre 1 e ' + numeroMaximo));
+
+  if (numeroPensado === chute) {
+    mostra('Parabéns! Você acertou!');
+  } else {
+    if (numeroPensado < chute) {
+      mostra('Você chutou um número maior do que o correto! O número correto era: ' + numeroPensado);
+    } else {
+      mostra('Você chutou um número menor do que o correto! O número correto era: ' + numeroPensado);
+    }
+  };
+</script>
