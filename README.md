@@ -5,7 +5,7 @@
 ### Front-end
 
 #### Cursos de Lógica de programação
-- [Javascript e HTML: desenvolva um jogo e pratique lógica de programação](https://github.com/LarissaAbreu/cursos-alura/tree/main/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20I)
+- [Javascript e HTML: desenvolva um jogo e pratique lógica de programação](https://github.com/LarissaAbreu/cursos-alura/tree/main/Javascript%20e%20HTML:%20desenvolva%20um%20jogo%20e%20pratique%20l%C3%B3gica%20de%20programa%C3%A7%C3%A3o)
 
 #### Cursos de HTML e CSS
 - [HTML5 e CSS3 parte 1](https://github.com/LarissaAbreu/cursos-alura/tree/main/HTML5%20e%20CSS3%20parte%201:%20A%20primeira%20p%C3%A1gina%20da%20Web)
