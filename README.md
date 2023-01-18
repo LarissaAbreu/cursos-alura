@@ -13,4 +13,4 @@
 - [HTML5 e CSS parte 3](https://github.com/LarissaAbreu/cursos-alura/tree/main/HTML5%20e%20CSS3%20parte%203:%20Trabalhando%20com%20formul%C3%A1rios%20e%20tabelas)
 
 #### Cursos de Automação e Performance
-- [HTTP: Entendendo a web por baixo dos panos]()
+- [HTTP: Entendendo a web por baixo dos panos](https://github.com/LarissaAbreu/cursos-alura/tree/main/HTTP:%20Entendendo%20a%20web%20por%20baixo%20dos%20panos)
