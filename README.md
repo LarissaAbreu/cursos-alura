@@ -1,4 +1,4 @@
-﻿# Listagem dos cursos que faço na Alura 👩‍💻🚀
+﻿# Listagem dos cursos que faço 👩‍💻🚀
 
 ### Front-end
 
